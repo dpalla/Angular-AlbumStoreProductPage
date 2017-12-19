@@ -35,12 +35,15 @@ describe('AppComponent', () => {
       if (element.nativeNode.nodeType == 1) {
         if (element.nativeNode.localName == 'router-outlet') {
           routerOutletFound = routerOutletFound + 1;
+          debugger;
         }
         if (element.nativeNode.localName == 'app-product-list') {
           productListFound = productListFound + 1;
+          debugger;
         }
         if (element.nativeNode.localName == 'app-product-page') {
           productPageFound = productPageFound + 1;
+          debugger;
         }
       }
     });
